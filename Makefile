@@ -8,7 +8,7 @@ run-ios:
 	cd app && npm run ios -- --simulator='iPhone 11'
 
 server:
-	. env/bin/activate && cd api && python manage.py runserver
+	. env/bin/activate && cd api && python3 manage.py runserver
 
 redis:
 	redis-server
